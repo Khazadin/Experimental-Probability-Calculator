@@ -1,0 +1,14 @@
+.headerr {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 7fr 1fr;
+  background-color: #3b77bc;
+}
+.header-left {
+  display: grid;
+}
+.header-right {
+  display: grid;
+  background-color: #3367a4;
+  height: 100px;
+}

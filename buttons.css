@@ -1,0 +1,33 @@
+.buttonn {
+  font-family: Apple Chancery, cursive !important;
+
+  font-size: 20px;
+  margin: 20px;
+  width: 220px;
+  height: 70px;
+  border-radius: 25px;
+  border-style: solid;
+}
+.buttonn:hover {
+  opacity: 0.9;
+}
+.buttonn:active {
+  opacity: 0.7;
+}
+.bton-diceroll {
+  margin-right: 150px;
+  margin-left: 270px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: none;
+  font-family: Apple Chancery, cursive !important;
+}
+.bton-diceroll:hover {
+  opacity: 0.9;
+}
+.bton-diceroll:active {
+  opacity: 0.7;
+}

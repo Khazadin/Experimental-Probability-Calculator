@@ -1,0 +1,26 @@
+.footerr {
+  display: grid;
+  margin: 0px;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 600px;
+  height: 120px;
+  position: absolute;
+  width: 1440px;
+  background-color: rgb(72, 72, 72);
+}
+.upbuttonn {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.logoss {
+  width: 50px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.logoss1 {
+  width: 50px;
+  margin-left: 900px;
+  margin-top: 40px;
+}
