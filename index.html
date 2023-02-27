@@ -4,72 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Probability Calculator</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="buttons.css" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="icon" href="icons8-calculator-96.png">
   </head>
   <body>
     <div class="headerr" id="head">
       <div class="header-left" id="hleft">
         <button class="buttonn again" id="againbutton" type="submit" onClick="refreshPage()">Again!</button>
       </div>
-      <!--   a  aaaaaaaaaa-->
-      <div class="header-right" id="hright">
-        <div id="totto" >
-          0
+        <div class="h-right">
+          <p>Total &#8594 <span id="totto">0</span></p>
         </div>
-      </div>
     </div>
     <div class="bodyy">
       <div class="bodyy-left">
-  <div id="one" class="meds">1:<span id="oners">0</span> </div>
-  <div id="two" class="meds">2: <span id="twoers">0</span></div>
-  <div id="three" class="meds">3: <span id="thrers">0</span></div>
-  <div id="four" class="meds">4:<span id="fouers">0</span></div>
-  <div id="five" class="meds">5:  <span id="fivers">0</span></div>
-  <div id="six" class="meds">6:<span id="sixers">0</span></div>
-
+  <div id="one" class="meds"><p class="countRoll">&#9830 1 &#8594 <span id="oners"> 0</span> </p> </div>
+  <div id="two" class="meds"><p class="countRoll">&#9830 2 &#8594 <span id="twoers">0</span></p></div>
+  <div id="three" class="meds"><p class="countRoll">&#9830 3 &#8594 <span id="thrers">0</span></p> </div>
+  <div id="four" class="meds"><p class="countRoll">&#9830 4 &#8594 <span id="fouers">0</span></p> </div>
+  <div id="five" class="meds"><p class="countRoll">&#9830 5 &#8594 <span id="fivers">0</span></p></div>
+  <div id="six" class="meds"><p class="countRoll">&#9830 6 &#8594 <span id="sixers">0</span></p> </div>
       </div>
       <div class="midd">
-<p>1)<span id="birort">0</span></p>
-<p>2)<span id="ikiort">0</span></p>
-<p>3)<span id="ucort">0</span></p>
-<p>4)<span id="dortort">0</span></p>
-<p>5)<span id="besort">0</span></p>
-<p>6)<span id="altiort">0</span></p>
-
-
+<p class="counties">1)<span id="birort" >0</span></p>
+<p class="counties">2)<span id="ikiort" >0</span></p>
+<p class="counties">3)<span id="ucort"  >0</span></p>
+<p class="counties">4)<span id="dortort">0</span></p>
+<p class="counties">5)<span id="besort" >0</span></p>
+<p class="counties">6)<span id="altiort">0</span></p>
       </div>
-      <div class="bodyy-right">
+       <div class="bodyy-right">
         <div class="dice-inp">
           <p class="placeholder" id="placeholder"></p>
         </div>
         <button class="bton-diceroll" id="button1">Roll</button>
-      
     </div>
-    <div class="footerr">
-      <div class="upbutton">
+    </div>
+    <footer class="footerr">
         <a href="#">
           <img src="arrow-up-icon-png-23 copy.png" alt="" class="upbuttonn"
         /></a>
-      </div>
-      <div class="infoxboutme">
    <a href="https://github.com/Khazadin"><img src="git.png" alt="" class="logoss1"></a>
    <a href="https://twitter.com/khazadin"><img src="twitter-logo-1DEF94C339-seeklogo.com.png" alt=""  class="logoss"></a>
 
-      </div>
-    </div>
+        </footer>
 
     <script src="script.js"></script>
-    <!-- <script type="text/javascript">
-      let clicks = 0;
-      function click() {
-          clicks += 1;
-        let clickkk  =document.getElementById("clicks");
-        clickkk.textContent= clicks;
-      };
-      </script> -->
   </body>
 </html>

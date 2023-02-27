@@ -1,48 +1,43 @@
 body {
   margin: 0px;
+  width: 100vw;
   font-family: Apple Chancery, cursive !important;
+  background-color: rgb(210, 210, 210);
+  background-color: #e1d7c6;
 }
 
 .bodyy {
   display: grid;
   grid-template-columns: 1fr 0.25fr 1fr;
-  background-color: rgb(210, 210, 210);
+  transform: translateY(18vh);
 }
-.bodyy-left {
-  display: grid;
-  width: 700px;
-  height: 600px;
-}
-.bodyy-right {
-  width: 700px;
-  height: 600px;
-  display: grid;
-}
-.midd {
-  width: 40px;
-  padding-top: 100px;
-}
-.dice-inp {
-  margin-left: 270px;
-  margin-top: 100px;
-  background-color: rgb(187, 183, 183);
 
-  width: 100px;
-  height: 100px;
+.midd {
+  transform: translate(0px, 8.5vh);
+  width: 10vw;
+  height: max-content;
 }
+.meds {
+  padding: 0.1vw;
+  border-radius: 25px 0px 25px 0px;
+  box-shadow: 1px 2px 1px rgb(19, 19, 19);
+}
+
 .soru {
   padding-left: 45px;
   padding-top: 25px;
 }
-.placeholder {
-  padding-left: 45px;
-  padding-top: 23px;
-}
 .meds {
-  display: grid;
   width: 250px;
   height: 50px;
-  background-color: antiquewhite;
+  background-color: #f8f4ea;
   margin-left: 50px;
   margin-top: 25px;
+  padding-bottom: 10px;
+}
+.counties {
+  font-size: 1.2em;
+}
+.countRoll {
+  font-size: 1.1em;
 }
